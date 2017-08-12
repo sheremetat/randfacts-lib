@@ -1,0 +1,6 @@
+keywords:Go ,  Golang
+Golang is mainly implemented for Simplicity. so that's first cool fact. other is golang mixes threads i/o and event i/o by providing concept of goroutines. Awesome stuff goroutines. so golang is cool for building massive servers.
+Go, also called golang, is a programming language initially developed at Google in 2007 by Robert Griesemer, Rob Pike, and Ken Thompson.
+The authors of Go! describe it as "a multi-paradigm programming language that is oriented to the needs of programming secure, production quality, agent based applications.
+The authors propose that the language is suitable for representing ontologies due to its integration of logic, functional and imperative styles of programming
+In November 2009, Google released a similarly named Go programming language (with no exclamation point). McCabe asked Google to change the name of their language as he was concerned they were "steam-rolling over us".[1][4] The issue received attention among technology news websites, with some of them characterizing Go! as "obscure".[5] The issue thread opened on the subject was closed by a Google developer on 12 October 2010 with the custom status "Unfortunate" and with the following comment: "there are many computing products and services named Go. In the 11 months since our release, there has been minimal confusion of the two languages."

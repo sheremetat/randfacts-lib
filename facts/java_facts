@@ -1,0 +1,6 @@
+keywords:java,jvm
+Original name for Java was Oak. Allegedly because of a big oak tree that grew outside the developer's window. It was eventually changed to Java by Sun's marketing department
+Java has no concept of pointers
+In Java final keyword - final has four meanings: 1) final class- The class cannot be extended 2) Final method- the method cannot be overridden 3) final field- The field is a constant 4)final variable- the value of the variable cannot be changed once assigned
+Sun MicroSystem created java, but now oracle oversees java after acquiring it.
+Java is ranked #2 in popularity among programming languages, according to Page on tiobe.com. The language C is #1
