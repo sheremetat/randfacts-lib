@@ -163,7 +163,7 @@ func calculateHash(s []string) string {
 // Search provided keywords as whole words in the provided message
 func containgKeywords(message string, keywords []string) bool {
 	words := strings.Join(keywords[:], "|")
-	r := regexp.MustCompile(`(?i)(\b?:|\A|\s)(` + words + `)(?:|\s|\z|\b)`)
+	r := regexp.MustCompile(`(?i)(\A|\b|\s|\W)(` + words + `)(\b|\W|\s|\z)`)
 	return len(r.FindString(message)) > 0
 }
 
