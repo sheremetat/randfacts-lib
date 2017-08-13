@@ -163,8 +163,8 @@ func calculateHash(s []string) string {
 // Search provided keywords as whole words in the provided message
 func containgKeywords(message string, keywords []string) bool {
 	words := strings.Join(keywords[:], "|")
-	r := regexp.MustCompile(`(?i)(\A|\b|\s|\W)(` + words + `)(\b|\W|\s|\z)`)
-	return len(r.FindString(message)) > 0
+	r := regexp.MustCompile(`(?i)(^|\s)(` + words + `)($|\s(.+))`)
+	return r.MatchString(message)
 }
 
 // Get random fact from provided slice of facts
