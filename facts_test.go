@@ -26,6 +26,19 @@ func TestGetFactSuccess(t *testing.T) {
 	if len(fact) == 0 {
 		t.Error("Fact should be found")
 	}
+
+	key = "пиха"
+	fact, _ = lib.GetFact(key)
+	if len(fact) == 0 {
+		t.Error("Fact should be found")
+	}
+
+	key = "рнр"
+	fact, _ = lib.GetFact(key)
+	if len(fact) == 0 {
+		t.Error("Fact should be found")
+	}
+
 }
 
 func TestFindFactSuccess(t *testing.T) {
